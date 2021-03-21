@@ -1,3 +1,3 @@
 # Kyle0.github.io
     
-Personal website showing background and skills, with google search options in navbar.
+Personal website showing background and skills, with Google search options in navbar.

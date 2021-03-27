@@ -14,44 +14,34 @@
     </head>
 
     <body>
-		<nav class="navbar navbar-light navbar-expand bg-light">
-			<div class="col-10">
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="/">Home</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="/background.html">Background <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Portfolio
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Fluorescence Spectroscopy</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Data Science</a>
-							</div>
-						</li>
-					</ul>
-				</div>
+		<nav class="col navbar navbar-dark navbar-expand-md bg-dark">
+			<a class="navbar-brand" href="/">Kyle Paterson <span class="sr-only">(current)</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbar-content" class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="/background.html">Background</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Portfolio
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Fluorescence Spectroscopy</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Data Science</a>
+						</div>
+					</li>
+				</ul>
 			</div>
-			<div class="col-2">
-				<form class="my-2 my-lg-0 form-inline" action="https://duckduckgo.com/">
-					<input class="form-control mr-sm-2 col-6" type="search" aria-label="Search" name="q"/>
-					<button class="btn btn-outline-secondary my-2 my-sm-0 col-5" type="submit" style="margin-right: 8px;">Search</button>
-					<!-- <button class="btn btn-outline-secondary my-2 my-sm-0 col-3" type="submit" style="margin-right: 8px;" name="tbm" value="isch">Images</button> -->
-				</form>
-			</div>
+			<form class="my-2 my-lg-0 form-inline" action="https://duckduckgo.com/">
+				<input class="form-control mr-sm-2" type="search" aria-label="Search" name="q"/>
+				<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-right: 8px;">Search</button>
+				<!-- <button class="btn btn-outline-secondary my-2 my-sm-0 col-3" type="submit" style="margin-right: 8px;" name="tbm" value="isch">Images</button> -->
+			</form>
 		</nav>
-		
-		<div class="row">
-			<div class="col-lg-2"></div>
-			<div class="col-md-12 col-lg-8">
-				<p>Background information goes here.</p>
-			</div>
-		</div>
 				
 		<!-- jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

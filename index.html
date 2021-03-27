@@ -10,7 +10,21 @@
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
 		<title>Kyle Paterson</title>
-		<style></style>
+		<style>
+			html, body, .row, .card {
+				margin: 0;
+				padding: 0;
+				border: 0;
+			}
+			html, body {
+				min-height: 100vh;
+				width: 100vw;
+				overflow-x: hidden;
+			}
+			.card, .container, .row {
+				min-height: 100%;
+			}
+		</style>
     </head>
 
     <body>
@@ -21,10 +35,7 @@
 			</button>
 			<div id="navbar-content" class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="/about.html">About</a>
-					</li>
-					<li class="nav-item dropdown">
+					<!-- <li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Portfolio
 						</a>
@@ -33,7 +44,7 @@
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="#">Data Science</a>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 			<form class="my-2 my-lg-0 form-inline" action="https://duckduckgo.com/">
@@ -46,24 +57,98 @@
 		<!-- Main content -->
 		<div class="row">
 			<!-- Sidebar with summary of relevant information -->
-			<div id="sidebar-content" class="col-4 col-md-2 card border-light bg-secondary">
-				<div class="row">
-					<div class="col">
-						<h1 class="card-title">Education</h1>
-					</div>
-				</div>
-				<hr class="bg-dark"></hr>
-				<div class="row">
-					<div class="col">
-						<p class="card-text">
-							A summary of relevant information about me
-						</p>
-					</div>
-				</div>
+			<div class="col-4 col-md-3 bg-secondary container">
+				<h1 class="card-title text-center">Contact</h1>
+				<hr class="bg-dark">
+				<a href="https://www.linkedin.com/in/kyle-paterson" class="text-dark" target="_blank"><img src="images/linkedin.png" alt="LinkedIn profile" width="40px"></a>
+
+				<h1 class="card-title text-center">Skills</h1>
+				<hr class="bg-dark">
+				<p class="card-text text-center">
+					Data Science<br>
+					Machine Learning<br>
+					Data Science Libraries<br>
+					Data Analysis & Evaluation<br>
+					Data Visualisation<br>
+					Data Engineering<br>
+					Big Data<br>
+					Microsoft Office<br>
+					Process Analysis<br>
+					Statistical Methods<br>
+					Linear Algebra & Calculus<br>
+					Quantitative Analysis<br>
+					Stakeholder Management<br>
+					Project Management<br>
+					People Management<br>
+					BI Reporting<br>
+				</p>
+
+				<h1 class="card-title text-center">Technical Skills</h1>
+				<hr class="bg-dark">
+				<p class="card-text text-center">
+					SQL<br>
+					C<br>
+					Javascript<br>
+					Python<br>
+					Django<br>
+					Jupyter Lab<br>
+				</p>
+				<p class="card-text text-center">
+					Folium<br>
+					Matplotlib<br>
+					Scikit-Learn<br>
+					Pandas<br>
+				</p>
+				<p class="card-text text-center">
+					Origin<br>
+					Microsoft Excel<br>
+				</p>
+				<p class="card-text text-center">
+					Linux<br>
+					Windows<br>
+					Cloud Computing<br>
+				</p>
+
+				<h1 class="card-title text-center">Education</h1>
+				<hr class="bg-dark">
+				<p class="card-text">
+					PhD Physical Chemistry<br>
+					<em>University of Edinburgh</em><br>
+					2016 - 2020
+				</p>
+				<p class="card-text">
+					M.Sc. Chemistry (Research)<br>
+					<em>University of Malta</em><br>
+					2013 - 2015
+				</p>
+				<p class="card-text">
+					B.Sc. Chemistry<br>
+					<em>University of Malta</em><br>
+					2012 - 2013
+				</p>
+				<p class="card-text">
+					Chemistry Diploma<br>
+					<em>University of Southampton</em><br>
+					2010 - 2013
+				</p>
+
+				<h1 class="card-title text-center">Certifications</h1>
+				<hr class="bg-dark">
+				<p class="card-text">
+					IBM Data Science Professional<br>
+					<em>Coursera</em><br>
+					2020 - 2021
+				</p>
+				<p class="card-text">
+					CS50x Introduction to Computer Science<br>
+					<em>EdX</em><br>
+					2020
+				</p>
+				<br>
 			</div>
 			
 			<!-- Body content with more detailed information -->
-			<div class="col-8 col-md-10 card border-light">
+			<div class="col-8 col-md-9 card border-light">
 				<div class="card-body">
 					<h1 class="card-title">About Me</h1>
 					<p class="card-text">

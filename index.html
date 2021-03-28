@@ -20,6 +20,11 @@
 				min-height: 100vh;
 				width: 100vw;
 				overflow-x: hidden;
+				-ms-overflow-style: none;
+				scrollbar-width: none;
+			}
+			html::-webkit-scrollbar {
+				display: none;
 			}
 			.card, .container, .row {
 				min-height: 100%;
@@ -60,7 +65,7 @@
 		<!-- Main content -->
 		<div class="row">
 			<!-- Sidebar with summary of relevant information -->
-			<div class="col-12 order-12 order-md-0 col-md-3 bg-gray container">
+			<div class="col-12 order-12 order-md-0 col-md-3 bg-secondary container">
 				<br>
 				<h4 class="card-title text-center">Contact</h4>
 				<hr class="bg-dark">
@@ -139,7 +144,7 @@
 					2010 - 2013
 				</p>
 
-				<h4 class="card-title text-center">Certification</h4>
+				<h4 class="card-title text-center">Certifications</h4>
 				<hr class="bg-dark">
 				<p class="card-text">
 					IBM Data Science Professional<br>
@@ -154,21 +159,27 @@
 				<br>
 			</div>
 			
-			<!-- Body content with more detailed information -->
-			<div class="col-12 col-md-7 card border-light">
+			<!-- Main body content -->
+			<div class="col-12 col-md-9" style="border: 0; margin: 0; padding: 0;">
+				<!-- Profile summary -->
 				<div class="card-body">
 					<h1 class="card-title">About Me</h1>
-					<p class="card-text">
+					<p class="card-text col-12 col-md-10">
 						I am an experienced researcher in Physical Chemistry with a long history of working with data, including data collection, manipulation, visualisation and analysis.
 						I have used a variety of tools, from Microsoft Excel to specialised software such as Origin graphing software to Python and Jupyter notebooks.
 						I love taking a particular question or problem and using a combination of tools, whether Python libraries or existing software, to create a solution.
 						This is also my favourite method for learning new skills, by following my curiosity to see where I end up.
 					</p>
 				</div>
-			</div>
 
-			<!-- Right spacer bar -->
-			<div class="col-0 col-md-2"></div>
+				<!-- Previous work portfolio -->
+				<div class="card-body bg-gray" style="min-height: 100%">
+					<h1 class="card-title">Previous Projects</h1>
+					<p class="card-text col-12 col-md-10">
+						Previous projects...
+					</p>
+				</div>
+			</div>
 		</div>
 		
 		<!-- jQuery and Bootstrap Bundle (includes Popper) -->

@@ -11,12 +11,10 @@
 
 		<title>Kyle Paterson</title>
 		<style>
-			html, body, .row, .card {
+			html, body {
 				margin: 0;
 				padding: 0;
 				border: 0;
-			}
-			html, body {
 				min-height: 100vh;
 				width: 100vw;
 				overflow-x: hidden;
@@ -29,9 +27,6 @@
 			.bg-gray {
 				background-color: lightgray;
 			}
-			.bg-success {
-				margin: 5px;
-			}
 		</style>
     </head>
 
@@ -43,7 +38,7 @@
 		<!-- Main content -->
 		<div class="row">
 			<!-- Sidebar with summary of relevant information -->
-			<div class="col-12 order-12 order-md-0 col-md-3 bg-secondary container">
+			<div class="col-12 order-12 order-md-0 col-md-3 bg-secondary card-body">
 				<br>
 				<h4 class="card-title text-center">Contact</h4>
 				<hr class="bg-dark">
@@ -157,30 +152,49 @@
 					<h1 class="card-title">Previous Projects</h1>
 
 					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-						<div class="card bg-success">
-							<div class="card-body">
-								<h2 class="card-title">Project One</h2>
-								<p class="card-text">
-									A project
-								</p>
+						<div class="col">
+							<div class="card bg-success h-100">
+								<div class="card-body">
+									<h2 class="card-title">Project One</h2>
+									<p class="card-text">
+										Here is a long-winded explanation of my project, in order to test my webpage layout.
+										I made changes to my local git repository and viewed the html file in my browser in order to display the changes.
+										In this way, I was able to test whether my layout worked as desired.
+									</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="card bg-success">
-							<div class="card-body">
-								<h2 class="card-title">Project Two</h2>
-								<p class="card-text">
-									A project
-								</p>
+						<div class="col">
+							<div class="card bg-success h-100">
+								<div class="card-body">
+									<h2 class="card-title">Project Two</h2>
+									<p class="card-text">
+										A project
+									</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="card bg-success">
-							<div class="card-body">
-								<h2 class="card-title">Project Three</h2>
-								<p class="card-text">
-									A project
-								</p>
+						<div class="col">
+							<div class="card bg-success h-100">
+								<div class="card-body">
+									<h2 class="card-title">Project Three</h2>
+									<p class="card-text">
+										A project
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card bg-success h-100">
+								<div class="card-body">
+									<h2 class="card-title">Project Four</h2>
+									<p class="card-text">
+										A project
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
